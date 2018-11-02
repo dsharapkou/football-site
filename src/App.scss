@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:600;
+  color: #ffffff;
+}
+
+.transparent {
+  background: rgba(0,0,0,0.4);
+  font-size: 20px;
+
+}
+
+.first-line {
+  height: 100vh;
+}
+
+.second-line {
+  background-color: white;
+  height: 100vh;
+  text-align: center;
+  padding: 80px;
+  color: black;
+}
+
+.bgd-image {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/105988/banner.jpg);
+  width: 100vw;
+  height: 150vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.text {
+  padding: 200px 20px 20px 20px;
+}
+
+.title {
+  font-size: 80px;
+  text-align: center;
+}
+
+
+.third-line {
+  color: white;
+}
