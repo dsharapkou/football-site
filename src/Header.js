@@ -54,7 +54,7 @@ class Header extends React.Component {
                                 <span className="icon-bar"></span>
                                 <span className="icon-bar"></span>
                             </button>
-                            <a className="navbar-brand" href="#">Brand</a>
+                            <a className="navbar-brand" href="#">ФК "Урожайная"</a>
                         </div>
 
                         <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -80,12 +80,9 @@ class Header extends React.Component {
                                     </ul>
                                 </li>
                             </ul>
-                            <form className="navbar-form navbar-left">
-                                <div className="form-group">
-                                    <input type="text" className="form-control" placeholder="Search"></input>
-                                </div>
-                                <button type="submit" className="btn btn-default">Submit</button>
-                            </form>
+                            <a className="btn btn-social-icon btn-twitter">
+                                <span className="fa fa-twitter"></span>
+                            </a>
                             <ul className="nav navbar-nav navbar-right">
                                 <li><a href="#">Link</a></li>
                                 <li className="dropdown">
