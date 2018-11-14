@@ -4,13 +4,23 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight:600;
-  color: #ffffff;
+  color: #000000;
 }
 
-.transparent {
-  background: rgba(0,0,0,0.4);
-  font-size: 20px;
+.navbar {
+  position: fixed;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 1000;
+}
 
+.bg-dark {
+  background-color: #343a40b3!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255,0.9);
 }
 
 .bgd-image {
@@ -21,6 +31,16 @@ body {
   width: 100vw;
   height: 150vh;
   background-position: center;
+
+  &:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #00000066;
+    top: 0;
+    left: 0;
+  }
 }
 
 .first-line {
@@ -83,22 +103,15 @@ body {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+input {
+  color: black;
+}
 
 .text {
-  padding: 200px 20px 20px 20px;
+  position: relative;
+  padding: 100px 20px 20px 20px;
+  z-index: 10;
+  color: white !important;
 }
 
 .title {
