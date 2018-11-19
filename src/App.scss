@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500i');
+@import "node_modules/react-image-gallery/styles/scss/image-gallery.scss";
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -32,23 +33,23 @@ body {
 
 .bgd-image {
   &-body {
-    background: url(https://pp.userapi.com/c844721/v844721203/d08d7/-RoLJ3CLgWo.jpg) fixed;
+    background: url(https://pp.userapi.com/c844721/v844721203/d08d7/-RoLJ3CLgWo.jpg) fixed center;
     background-size: cover;
     max-width:100%;
     max-height:100%;
     width: 100vw;
     height: 150vh;
-    background-position: center;
   }
   &-third {
-    background: url(https://pp.userapi.com/c847019/v847019948/69e87/Im9HlgQ96oY.jpg) fixed;
+    background: url(https://pp.userapi.com/c847019/v847019948/69e87/Im9HlgQ96oY.jpg) fixed center;
     background-size: cover;
+
     max-width:100%;
     max-height:100%;
     vertical-align: middle;
     width: 100vw;
     font-size: 35px;
-    height: 100vh;
+    height: 150vh;
     text-align: center;
     padding: 80px;
     color: white;
@@ -58,22 +59,20 @@ body {
   }
 
   &-children1 {
-    background: url(https://pp.userapi.com/c849520/v849520915/b9ac9/QGHlzOxcy1Y.jpg) fixed;
+    background: url(https://pp.userapi.com/c849520/v849520915/b9ac9/QGHlzOxcy1Y.jpg) fixed center;
     background-size: cover;
     max-width:100%;
-    max-height:100%; //фигня какая то
+    max-height:100%;
     width: 100vw;
     height: 150vh;
-    background-position: center;
   }
   &-children2 {
-    background: url(https://pp.userapi.com/c830409/v830409692/16c798/Xs_ntHKoFWc.jpg) fixed;
+    background: url(https://pp.userapi.com/c830409/v830409692/16c798/Xs_ntHKoFWc.jpg) fixed center;
     background-size: cover;
     max-width:100%;
-    max-height:100%; //фигня какая то
+    max-height:100%;
     width: 100vw;
     height: 150vh;
-    background-position: center;
   }
 
   &:after {
@@ -185,4 +184,6 @@ input {
   }
 }
 
-
+.padding {
+  padding-top: 70px;
+}
